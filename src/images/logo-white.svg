@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="255px" height="17px" viewBox="0 0 255 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>Logo White Copy</title>
+    <title>Logo white</title>
     <desc>Created with Sketch.</desc>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Tablet-Portrait" transform="translate(-206.000000, -682.000000)">
-            <g id="Logo-White-Copy" transform="translate(204.000000, 680.000000)">
+        <g id="Desktop" transform="translate(-395.000000, -36.000000)">
+            <g id="Logo-white" transform="translate(393.000000, 34.000000)">
+                <polyline id="Line" stroke="#FFFFFF" stroke-linecap="square" points="196.5 18.5 203.5 2.5 210.5 18.5"></polyline>
+                <polyline id="Line-3" stroke="#FFFFFF" stroke-linecap="square" points="201.5 8.5 202.3 8 203.5 9 204.3 8 205.5 8.5"></polyline>
                 <text id="&lt;-PARAMO-SOFTW-RE-&gt;" font-family="Avenir-Light, Avenir" font-size="22" font-weight="300" line-spacing="23">
                     <tspan x="0.5" y="22" fill="#CD4040">&lt;</tspan>
                     <tspan x="15.152" y="22" fill="#FFFFFF"> </tspan>
@@ -14,9 +16,6 @@
                     <tspan x="243.864" y="22" fill="#CD4040">&gt;</tspan>
                     <tspan x="262.19" y="24.5921021" fill="#FFFFFF"></tspan>
                 </text>
-                <g id="Group" transform="translate(196.000000, 2.000000)"></g>
-                <polyline id="Line" stroke="#FFFFFF" stroke-linecap="square" points="196.5 18.5 203.5 2.5 210.5 18.5"></polyline>
-                <polyline id="Line-3" stroke="#FFFFFF" stroke-linecap="square" points="201.5 8.5 202.3 8 203.5 9 204.3 8 205.5 8.5"></polyline>
             </g>
         </g>
     </g>

@@ -1,4 +1,4 @@
-import logoWhite from './logo-white.svg';
+import logoWhite from './images/logo-white.svg';
 import './App.scss';
 import {Image, Video, CloudinaryContext} from 'cloudinary-react'
 import {Cloudinary} from 'cloudinary-core'
@@ -17,7 +17,7 @@ function App() {
           </video>
         </div>
 
-        <img src={logoWhite} alt="paramosoftware-logo" />
+        <img src={logoWhite} alt="paramosoftware-logo" className="logo-top" />
 
           <h1 className="header-primary">
             We <br />
