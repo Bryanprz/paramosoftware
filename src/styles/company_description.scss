@@ -1,0 +1,18 @@
+.company-description {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+
+  &-header {
+    color: $red;
+    font-weight: 777;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-size: 2vw;
+    margin-top: 9rem;
+  }
+}
