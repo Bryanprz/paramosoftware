@@ -15,10 +15,15 @@ const CompanyDescription = props => (
       </div>
 
       <div className="company-description-second">
+        <h2 className="">
+        </h2>
 
       </div>
 
       <div className="company-description-third">
+        <h2 className="">
+          TURN YOUR IDEA INTO A REAL PRODUCT
+        </h2>
 
       </div>
     </div>

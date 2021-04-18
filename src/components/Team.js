@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-export default class Cards extends Component {
+export default class Team extends Component {
     render() {
         return (
             <section className="cards">
