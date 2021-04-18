@@ -45,8 +45,8 @@ function App() {
         </CloudinaryContext>
         <section className="cards">
                     <div className="container">
-                        <div className="card">
-                            <div className="content">
+                        <div className="card"> {/*bryan */}
+                            <div className="content"> 
                                 <div className="imgBx"><img src={Bryan}alt='profile'></img></div>
                                 <div className="contentBx">
                                     <h3 className="title">Bryan<br/><span class="span">Lorem, ipsum dolor.</span></h3>
@@ -64,7 +64,7 @@ function App() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="card">
+                        <div className="card"> {/* Maria */}
                             <div className="content">
                                 <div className="imgBx"><img src={Maria} alt='profile'></img></div>
                                 <div className="contentBx">
@@ -83,7 +83,7 @@ function App() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="card">
+                        <div className="card"> {/* jonatan */}
                             <div className="content">
                                 <div className="imgBx"><img src={Jonatan} alt='profile'></img></div>
                                 <div className="contentBx">
@@ -102,7 +102,7 @@ function App() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="card">
+                        <div className="card"> {/* cristian */}
                             <div className="content">
                                 <div className="imgBx"><img src={Cristian} alt='profile'></img></div>
                                 <div className="contentBx">
