@@ -1,0 +1,108 @@
+.title-contacs {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $blue-dark ,$blue ,$blue-dark);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Oleo Script', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    
+}
+
+.icons {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+
+
+        &-ul {
+            position: relative;
+        margin: 0;
+        padding: 0;
+        display: flex;
+            
+            &__li {
+                position: relative;
+                list-style: none;
+                width: 3.75rem;
+                height: 3.75rem;
+                margin: 0 3.5rem;
+                transform: rotate(-30deg) skew(25deg);
+
+                    &--span {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        /* background: #000; */
+                        transition: 0.5s;
+                        display: flex !important;
+                        align-items: center;
+                        justify-content: center;
+                        color: #fff;
+                        font-size: 2rem !important;
+                    }
+            }
+            
+        }
+}
+
+
+.icons-ul .icons-ul__li:hover .icons-ul__li--span{
+    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+}
+
+.icons-ul .icons-ul__li:hover .icons-ul__li--span:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+.icons-ul .icons-ul__li:hover .icons-ul__li--span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: .8;
+}
+
+.icons-ul .icons-ul__li:hover .icons-ul__li--span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: .6;
+}
+
+.icons-ul .icons-ul__li:hover .icons-ul__li--span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
+
+.icons-ul .icons-ul__li:hover .icons-ul__li--span:nth-child(1) {
+    transform: translate(0,0);
+    opacity: .2;
+}
+
+.icons-ul .icons-ul__li:nth-child(1) .icons-ul__li--span {
+    background: #3b5999;
+}
+
+.icons-ul .icons-ul__li:nth-child(2) .icons-ul__li--span {
+    background: #55acee;
+}
+
+.icons-ul .icons-ul__li:nth-child(3) .icons-ul__li--span {
+    background: #dd4b39;
+}
+
+.icons-ul .icons-ul__li:nth-child(4) .icons-ul__li--span {
+    background: #0077B5;
+}
+
+.icons-ul .icons-ul__li:nth-child(5) .icons-ul__li--span {
+    background: #e4405f;
+}
