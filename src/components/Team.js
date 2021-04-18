@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Image } from 'cloudinary-react'
 
 export default class Team extends Component {
     render() {
@@ -8,7 +8,10 @@ export default class Team extends Component {
                     <div className="container">
                         <div className="card">
                             <div className="content">
-                                <div className="imgBx"><img src="./images/4745204.jpg "alt='profile'></img></div>
+                                <div className="imgBx">
+                                  <Image publicId="images/bryan_s0pepr.jpg" />
+                                </div>
+
                                 <div className="contentBx">
                                     <h3 className="title">Bryan<br/><span class="span">Lorem, ipsum dolor.</span></h3>
                                 </div>
@@ -27,7 +30,10 @@ export default class Team extends Component {
                         </div>
                         <div className="card">
                             <div className="content">
-                                <div className="imgBx"><img src="./images/maria.png" alt='profile'></img></div>
+                                <div className="imgBx">
+                                  <Image publicId="images/maria_wdfiyk.png" />
+                                </div>
+
                                 <div className="contentBx">
                                     <h3 className="title">Maria Isabel<br/><span class="span">Lorem, ipsum dolor.</span></h3>
                                 </div>
@@ -46,7 +52,10 @@ export default class Team extends Component {
                         </div>
                         <div className="card">
                             <div className="content">
-                                <div className="imgBx"><img src="./images/jon.jpg" alt='profile'></img></div>
+                                <div className="imgBx">
+                                  <Image publicId="images/jon_jpzzsh.jpg" />
+                                </div>
+
                                 <div className="contentBx">
                                     <h3 className="title">Jonatan Osorio<br/><span class="span">Lorem, ipsum dolor.</span></h3>
                                 </div>
