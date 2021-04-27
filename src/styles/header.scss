@@ -25,10 +25,11 @@
   //height: 40vmin;
   //pointer-events: none;
   overflow: visible;
-  position: absolute;
+  position: fixed;
   top: 1rem;
   text-align: center;
   width: 25%;
+  z-index: 1000;
 }
 
 .header-primary-container {

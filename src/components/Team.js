@@ -38,7 +38,7 @@ export default class Team extends Component {
                                     <div className="card">   {/*Maria*/}
                                         <div className="content">
                                             <div className="imgBx">
-                                            <Image publicId="images/maria_wdfiyk.png" className="img m" />
+                                            <Image publicId="images/maria_wdfiyk_fzgigf.png" className="img m" />
                                             </div>
 
                                             <div className="contentBx">
