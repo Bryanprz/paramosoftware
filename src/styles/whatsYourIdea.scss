@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+.create {
+    width: 100%;
+    height: 20rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+
+
+        &-container {
+            display: flex;
+
+
+                &__text{
+                    &--title {
+                        text-transform: uppercase;
+                        font-size: 4rem;
+
+                            &-span{
+                                font-size: 6rem;
+                                color: $blue;
+                            }
+                    }
+
+                    &--paragraph{
+                        font-size: 1.5rem;
+                        position: relative;
+                        left: 3rem;
+                        top: 2.5rem;
+                    }
+                }
+                &__photo {
+                    &--img {
+                        width: 32rem;
+                        position: relative;
+                        left: -1.5rem;
+                        z-index: -1;
+                    }
+                }
+    }
+}
+
+
+.subtitle{
+    color: $red-2;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.subtitle::before{
+    content: "";
+    border: 1px solid $red-2;
+    width: 1.5rem;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    left: -4px;
+}
+
+.subtitle::after{
+    content: "";
+    border: 1px solid $red-2;
+    width: 1.5rem;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    left: 4px;
+}
+
+
+.idea{
+    background: $gray;
+    margin-top: 4rem;
+    height: 35rem;
+
+    &-text{
+        &__title {
+            font-size: 4rem;
+            position: absolute;
+            bottom: -119rem;
+            left: 10rem;
+            display: flex;
+            text-transform: uppercase;
+            line-height: 5rem;
+        }
+    }
+
+    &-paragraph {  
+        position: relative;
+        top: -4rem;
+            &__text{
+                font-size: 27px;
+                margin-left: 7rem;
+                position: relative;
+                top: 1rem;
+            }
+    }
+}
+
+.form {
+    background: $gray;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding:40px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        &-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__button {
+                height: 27px;
+                width: 90px;
+                background: $blue-2;
+                color: $white;
+                font-weight: bold;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: .1s ease all;
+                outline: none;
+                display: flex;
+                justify-content: center;
+                margin: 2rem auto;
+            }
+        }
+
+        &-action {
+            
+            margin-bottom: 2rem;
+
+            &__input{
+                width: 20rem;
+                height: 2.5rem;
+                margin-top: 1rem;
+                border-radius: 3px;
+                padding: 0 25px 0 10px;
+                transition: .3s ease all;
+                border: 3px solid transparent;
+                font-family: 'Roboto', sans-serif;
+                display: flex;
+
+                &:focus { //para cuando ocurra el evento de hacer click sobre el input 
+                    border: 3px solid $blue-2;
+                    outline: none; //para que se quite el seleccionado negro que viene por defecto
+                    box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+                }
+              
+            }
+
+            &__textarea {
+                width: 20rem;
+                margin-top: 1rem;
+                border-radius: 3px;
+                padding: 0 25px 0 10px;
+                transition: .3s ease all;
+                border: 3px solid transparent;
+                font-family: 'Roboto', sans-serif;
+                display: flex;
+                line-height: 30px;
+
+                &:focus { //para cuando ocurra el evento de hacer click sobre el input 
+                    border: 3px solid $blue-2;
+                    outline: none; //para que se quite el seleccionado negro que viene por defecto
+                    box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+                }
+            }
+        }
+
+    &-alert {
+        &__p {
+            height: 30px;
+            background: $red-ligth;
+            padding: 0px 15px ;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+
+            &--i{
+                font-size: 12px;
+                padding: 0px 10px 0px 0px;
+            }
+        }
+    }
+}

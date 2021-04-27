@@ -1,7 +1,8 @@
-import {CloudinaryContext} from 'cloudinary-react'
-import Header from './Header'
-import CompanyDescription from './CompanyDescription'
-import Team from './Team'
+import {CloudinaryContext} from 'cloudinary-react';
+import Header from './Header';
+import CompanyDescription from './CompanyDescription';
+import Team from './Team';
+import WhatsYourIdea from './WhatsYourIdea';
 import Contacts from './Contacts';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <CompanyDescription />
       <Team />
+      <WhatsYourIdea/>
       <Contacts/>
     </CloudinaryContext>
   );
