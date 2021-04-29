@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
 
 .title-team{
     text-transform: uppercase;
@@ -151,6 +153,9 @@
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    margin: 6px 20px;
     
 
 }
@@ -180,14 +185,3 @@
     font-size: 24px;
 }
 
-.fa-facebook {
-    box-shadow: 1px 9px 7px 0px rgba(0,0,0,0.40);
-}
-
-.fa-twitter {
-    box-shadow: 1px 9px 7px 0px rgba(0,0,0,0.40);
-}
-
-.fa-instagram {
-    box-shadow: 1px 9px 7px 0px rgba(0,0,0,0.40);
-}

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../styles/app.scss'
 import { Image } from 'cloudinary-react'
 import Tilt from 'react-vanilla-tilt';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 export default class Team extends Component {
     render() {
@@ -18,18 +20,15 @@ export default class Team extends Component {
                                             <Image publicId="images/bryan_s0pepr.jpg"  className="img" />
                                             </div>
                                             <div className="contentBx">
-                                                <h3 className="title">Bryan Perez<br/><span class="span">Lorem, ipsum dolor.</span></h3>
+                                                <h3 className="title">Bryan Perez<br/><span class="span">Bryan is a veteran software developer with over six years working as a professional engineer.</span></h3>
                                             </div>
                                         </div>
                                         <ul className="list">
                                             <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="https://github.com/Bryanprz/" className="a" target="__new"><FontAwesomeIcon icon={faGithub}/></a>
                                             </li>
                                             <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li  className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                                                <a href="https://twitter.com/BryanPrz" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -47,13 +46,10 @@ export default class Team extends Component {
                                         </div>
                                         <ul className="list">
                                             <li  className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="https://github.com/Bryanprz" className="a" target="__new"><FontAwesomeIcon icon={faGithub}/></a>
                                             </li>
                                             <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                                                <a href="https://github.com/Bryanprz" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -66,18 +62,16 @@ export default class Team extends Component {
                                             </div>
 
                                             <div className="contentBx">
-                                                <h3 className="title">Jonatan Osorio<br/><span class="span">Lorem, ipsum dolor.</span></h3>
+                                                <h3 className="title">Jonatan Osorio<br/><span class="span">Is a front-end web developer, who likes to learn constantly.
+                                                He is passionate about innovating in each project developed</span></h3>
                                             </div>
                                         </div>
                                         <ul className="list">
                                             <li  className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="https://github.com/jonatanparamosoftware" className="a" target="__new"><FontAwesomeIcon icon={faGithub}/></a>
                                             </li>
                                             <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                                                <a href="https://twitter.com/ArcilaJonatan" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
                                             </li>
                                         </ul>
                                     </div>
