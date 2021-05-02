@@ -73,14 +73,14 @@
 
 .idea{
     background: $gray;
-    margin-top: 4rem;
+    margin-top: 3rem;
     height: 35rem;
 
     &-text{
         &__title {
             font-size: 4rem;
-            position: absolute;
-            bottom: -146rem;
+            position: relative;
+            top: 6rem;
             left: 10rem;
             display: flex;
             text-transform: uppercase;
@@ -95,7 +95,7 @@
                 font-size: 27px;
                 margin-left: 7rem;
                 position: relative;
-                top: 1rem;
+                top: -14rem;
             }
     }
 }
@@ -108,6 +108,7 @@
     padding:40px;
     font-family: 'Roboto', sans-serif;
     position: relative;
+    top: -15rem;
     left: 14rem;
     display: flex;
     flex-direction: column;

@@ -1,0 +1,114 @@
+.ClientHighlight {
+    &-header{
+        &-title{
+            text-transform: uppercase;
+            color: $blue;
+            margin: 0 0 2rem 8rem;
+            font-size: 1.5rem;
+        }
+
+        &-title::after{
+            content: "";
+            border: 1px solid $blue;
+            width: 2rem;
+            height: 2px;
+            position: relative;
+            top: -5px;
+            left: 4px;
+            display: inline-block;
+            transform: rotate(180deg);
+        }
+        &-img-one {
+            width: 81rem;
+            height: 33rem;
+        }
+    }
+
+    &-description {
+        display: flex;
+        justify-content: center;
+
+        &-img-two {
+            width: 15rem;
+            position: relative;
+            left: -9rem;
+            margin-top: 2rem;
+        
+        }
+
+        &-paragraph {
+            width: 25rem;
+            font-size: 23px;
+            text-align: justify;
+            margin-top: 4rem;
+            line-height: 38px;
+            position: relative;
+            left: 5rem;
+
+            &-a {
+                text-decoration: none;
+                margin: 0 10px;
+                color:  $blue ;
+            }
+        }
+    }
+
+    &-testimonial {
+        margin-top: 6rem;
+        height: 29rem;
+    
+
+        &-title {
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-left: 3rem;
+        }
+
+        &-title::after {
+            content: "";
+            border: 1px solid $black;
+            width: 1.5rem;
+            height: 2px;
+            position: relative;
+            top: -5px;
+            left: 4px;
+            display: inline-block;
+            transform: rotate(180deg);
+        }
+
+        &-photo-client {
+
+            display: flex;
+            position: relative;
+            top: 1rem;
+            left: 3rem;
+        
+                
+                &-img-three {
+                    width: 11rem;
+                    margin-top: 1rem;
+                }
+
+                &-paragraph {
+                    font-size: 24px;
+                    margin: 64px 0 0 15px;
+
+                    &-a{
+                        text-decoration: none;
+                        color:  $black;
+                    }
+                }
+        }
+        
+
+        &-paragraph {
+            font-size: 22px;
+            position: relative;
+            left: 39rem;
+            top: -13rem;
+            width: 40rem;
+            line-height: 32px;
+
+        }
+    }
+}

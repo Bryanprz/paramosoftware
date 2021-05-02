@@ -13,8 +13,8 @@ export default class Team extends Component {
                     <section className="Team">
                         <h2 className="title-team"><sup>team</sup> of <sub> work</sub></h2>
                             <div className="container">
-                                <Tilt style={{background: 'none'}}>
-                                    <div className="card"> {/*bryan */}
+                                <Tilt style={{background: 'none'}}>{/*bryan */}
+                                    <div className="card"> 
                                         <div className="content">
                                             <div className="imgBx">
                                             <Image publicId="images/bryan_s0pepr.jpg"  className="img" />
@@ -33,8 +33,8 @@ export default class Team extends Component {
                                         </ul>
                                     </div>
                                 </Tilt>
-                                <Tilt  style={{background: 'none'}}>
-                                    <div className="card">   {/*Maria*/}
+                                <Tilt  style={{background: 'none'}}> {/*Maria*/}
+                                    <div className="card">  
                                         <div className="content">
                                             <div className="imgBx">
                                             <Image publicId="images/maria_wdfiyk_fzgigf.png" className="img m" />
@@ -54,8 +54,8 @@ export default class Team extends Component {
                                         </ul>
                                     </div>
                                 </Tilt>
-                                <Tilt  style={{background: 'none'}}>
-                                    <div className="card">   {/*jonatan */}
+                                <Tilt  style={{background: 'none'}}>{/*jonatan */}
+                                    <div className="card">   
                                         <div className="content">
                                             <div className="imgBx">
                                             <Image publicId="images/jon_jpzzsh.jpg" className="img j"  />
