@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Image } from 'cloudinary-react'
-import ClientHighlight from './ClientHighlight';
+
 
 export default class clientHighlight extends Component {
     render() {
@@ -11,10 +11,13 @@ export default class clientHighlight extends Component {
                         <h2 className="ClientHighlight-header-title">
                             client highlight
                         </h2>
-                        <Image publicId="images/header_ovckit" alt="" className="ClientHighlight-header-img-one"/>
+                        <Image publicId="images/p2p-screenshot_ug7cqk" alt="" className="ClientHighlight-header-img-one"/>
+                        <p className="ClientHighlight-header-paragraph">
+                            <span className="ClientHighlight-header-paragraph-span">PLACES 2 PLAY</span> <br/>
+                            largest sports search <br/> engine for child and <br/> adult athletes in the us</p>
                    </div>
                    <div className="ClientHighlight-description">
-                        <Image publicId="images/dos_by04eu" alt="img-haeder" className="ClientHighlight-description-img-two"/>
+                        <Image publicId="images/p2p-portfolio_fxlyv5" alt="img-haeder" className="ClientHighlight-description-img-two"/>
                         <p className="ClientHighlight-description-paragraph">
                             Entrepreneur Robert Mcknight had a vision for over 
                             10 years of building the largest sports search engine 
@@ -31,7 +34,7 @@ export default class clientHighlight extends Component {
                             client testimonial
                         </h2>
                         <div className="ClientHighlight-testimonial-photo-client">
-                            <Image publicId="images/foto_bbhshb" alt="" className="ClientHighlight-testimonial-photo-client-img-three"/>
+                            <Image publicId="images/p2p-ceo_l1kims" alt="" className="ClientHighlight-testimonial-photo-client-img-three"/>
                             <p className="ClientHighlight-testimonial-photo-client-paragraph">Robert M. <br/> <a href="https://www.places2play.com/" className="ClientHighlight-testimonial-photo-client-paragraph-a" target="__new">Places2Play.com </a><br/>CEO</p>
                         </div>
                         <p className="ClientHighlight-testimonial-paragraph">
