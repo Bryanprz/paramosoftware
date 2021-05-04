@@ -41,15 +41,18 @@ export default class Team extends Component {
                                             </div>
 
                                             <div className="contentBx">
-                                                <h3 className="title">Maria Isabel<br/><span class="span">Lorem, ipsum dolor.</span></h3>
+                                                <h3 className="title">Maria Isabel<br/><span class="span">
+                                                    He has extensive experience in the development of pages based on HTML and CSS with modern web design techniques
+                                                        and a great charisma to understand the needs of the user.
+                                                </span></h3>
                                             </div>
                                         </div>
                                         <ul className="list">
                                             <li  className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a" target="__new"><FontAwesomeIcon icon={faGithub}/></a>
+                                                <a href="https://github.com/mashaparamosoftware" className="a" target="__new"><FontAwesomeIcon icon={faGithub}/></a>
                                             </li>
                                             <li className="sublist">
-                                                <a href="https://github.com/Bryanprz" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
+                                                <a href="https://twitter.com/mariais28040840?s=20" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
                                             </li>
                                         </ul>
                                     </div>
