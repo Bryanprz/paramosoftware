@@ -1,12 +1,12 @@
-import logoWhite from '../images/logo-white.svg'
 import '../styles/app.scss'
 import { Video, Transformation } from 'cloudinary-react'
 import { headerVideoMP4, headerVideoWebm } from '../data/cloudinary'
+import { Image } from 'cloudinary-react'
 
 const Header = props => (
   <>
     <div className="logo-top-container">
-      <img src={logoWhite} alt="paramosoftware-logo" className="logo-top" />
+      <Image publicId="images/LOGO_x1wjhd.png" className="logo-top" />
     </div>
 
     <header className="header-container">
