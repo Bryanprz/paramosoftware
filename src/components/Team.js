@@ -52,7 +52,7 @@ export default class Team extends Component {
                                                 <a href="https://github.com/mashaparamosoftware" className="a" target="__new"><FontAwesomeIcon icon={faGithub}/></a>
                                             </li>
                                             <li className="sublist">
-                                                <a href="https://twitter.com/mariais28040840?s=20" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
+                                                <a href="https://twitter.com/MaraIsabelCor16" className="a" target="__new"><FontAwesomeIcon icon={faTwitter}/></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -86,3 +86,4 @@ export default class Team extends Component {
         )
     }
 }
+
