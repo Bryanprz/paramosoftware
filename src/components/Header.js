@@ -6,7 +6,7 @@ import { Image } from 'cloudinary-react'
 const Header = props => (
   <>
     <div className="logo-top-container">
-      <Image publicId="images/LOGO_x1wjhd.png" className="logo-top" />
+      <Image publicId="images/logo4_o1dym9" className="logo-top" />
     </div>
 
     <header className="header-container">

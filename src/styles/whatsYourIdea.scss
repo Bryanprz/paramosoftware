@@ -79,12 +79,13 @@
     &-text{
         &__title {
             font-size: 4rem;
+            width: 20rem;
             position: relative;
             top: 6rem;
-            left: 10rem;
+            left: 8rem;
             display: flex;
             text-transform: uppercase;
-            line-height: 5rem;
+            line-height: 5rem;;
         }
     }
 

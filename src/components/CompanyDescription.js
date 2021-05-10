@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CompanyDescription = props => (
-  <div className="company-description-container">
+  <div className="company-description-container" id="about">
     <h2 className="company-description-header">
       Your Idea &#8594; Our Agency &#8594; Your New Product
     </h2>

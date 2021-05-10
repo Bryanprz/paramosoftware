@@ -5,6 +5,7 @@ import ClientHighlight from './ClientHighlight';
 import Team from './Team';
 import WhatsYourIdea from './WhatsYourIdea';
 import Contacts from './Contacts';
+import Footer from './Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Team />
       <WhatsYourIdea/>
       <Contacts/>
+      <Footer/>
     </CloudinaryContext>
   );
 }

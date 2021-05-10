@@ -6,7 +6,7 @@ import '../styles/app.scss';
 export default class Contacts extends Component {
     render() {
         return (
-            <div>
+            <div id="contact">
                 <h2 className="title-contacs">contact us!</h2>
                 <section className="icons">
                         

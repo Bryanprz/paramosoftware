@@ -18,7 +18,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section>
+    <section id="hire">
         <div className="create">
             <div className="create-container">
               <div className="create-container__text">
