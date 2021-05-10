@@ -15,13 +15,13 @@
 
 .Team {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background: $blue-dark;
-    width: 84.3rem;
+    width: 100%;
     position: relative;
-    left: -3rem;
     min-height: 100vh;
 }
 
@@ -46,7 +46,7 @@
 //     height: 100%;
 //     background: linear-gradient(#2196f3, #e91e63);
 //     clip-path: circle(20% at 10% 10%);
- 
+
 // }
 
 .container {
@@ -69,7 +69,7 @@
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     backdrop-filter: blur(10px);
     border-top:1px solid rgba(255, 255, 255, 0.3);
     border-left:  1px solid rgba(255, 255, 255, 0.3);
@@ -146,7 +146,7 @@
     margin: 20px 0 10px ;
     line-height: 1.1em;
     font-family: 'Oleo Script', cursive;
-    
+
 }
 
 .container .card .content .contentBx .title .span {
@@ -156,7 +156,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     margin: 6px 20px;
-    
+
 
 }
 
@@ -178,7 +178,7 @@
 .container .card:hover .list .sublist{
     transform: translateY(0px);
     opacity: 1;
-} 
+}
 
 .container .card .list .sublist .a {
     color:  $white;

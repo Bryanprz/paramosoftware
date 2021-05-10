@@ -9,12 +9,12 @@ export default class Team extends Component {
     render() {
         return (
             <section>
-                    
+
                     <section className="Team">
-                        <h2 className="title-team"><sup>team</sup> of <sub> work</sub></h2>
+                        <h2 className="title-team"><sup>Meet</sup> the <sub> team</sub></h2>
                             <div className="container">
                                 <Tilt style={{background: 'none'}}>{/*bryan */}
-                                    <div className="card"> 
+                                    <div className="card">
                                         <div className="content">
                                             <div className="imgBx">
                                             <Image publicId="images/bryan_s0pepr.jpg"  className="img" />
@@ -34,7 +34,7 @@ export default class Team extends Component {
                                     </div>
                                 </Tilt>
                                 <Tilt  style={{background: 'none'}}> {/*Maria*/}
-                                    <div className="card">  
+                                    <div className="card">
                                         <div className="content">
                                             <div className="imgBx">
                                             <Image publicId="images/maria_wdfiyk_fzgigf.png" className="img m" />
@@ -42,7 +42,7 @@ export default class Team extends Component {
 
                                             <div className="contentBx">
                                                 <h3 className="title">Maria Isabel<br/><span class="span">
-                                                    He has extensive experience in the development of pages based on HTML and CSS with modern web design techniques
+                                                    She has extensive experience in the development of pages based on HTML and CSS with modern web design techniques
                                                         and a great charisma to understand the needs of the user.
                                                 </span></h3>
                                             </div>
@@ -58,7 +58,7 @@ export default class Team extends Component {
                                     </div>
                                 </Tilt>
                                 <Tilt  style={{background: 'none'}}>{/*jonatan */}
-                                    <div className="card">   
+                                    <div className="card">
                                         <div className="content">
                                             <div className="imgBx">
                                             <Image publicId="images/jon_jpzzsh.jpg" className="img j"  />
@@ -81,7 +81,7 @@ export default class Team extends Component {
                                 </Tilt>
                             </div>
                     </section>
-                    
+
             </section>
         )
     }
