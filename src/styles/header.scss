@@ -13,6 +13,7 @@
 .header-container {
   display: grid;
   grid-template-rows: 20% 80%;
+  height: 90vh;
 }
 
 .logo-top-container {
@@ -29,12 +30,13 @@
   top: 1rem;
   text-align: center;
   width: 30%;
-  
+
 }
 
 .header-primary-container {
-  grid-column: 1;
-  grid-row: 2;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .header-primary {
@@ -100,8 +102,8 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 888;
-  position: relative;
-  top: -5rem;
+  align-self: flex-start;
+  margin-right: 15%;
 }
 
 .hire-us-link-container {

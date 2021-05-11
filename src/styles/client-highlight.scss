@@ -1,9 +1,13 @@
 .ClientHighlight {
+  margin-top: 6rem;
+
     &-header{
+      text-align: center;
+
         &-title{
             text-transform: uppercase;
             color: $blue;
-            margin: 0 0 2rem 8rem;
+            margin-bottom: 2rem;
             font-size: 1.5rem;
         }
 
@@ -19,7 +23,7 @@
             transform: rotate(180deg);
         }
         &-img-one {
-            width: 78rem;
+            width: 80%;
         }
 
         &-paragraph{
@@ -49,7 +53,7 @@
             position: relative;
             left: -9rem;
             margin-top: 2rem;
-        
+
         }
 
         &-paragraph {
@@ -71,13 +75,16 @@
 
     &-testimonial {
         margin-top: 6rem;
-        height: 29rem;
-    
+        margin-bottom: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
 
         &-title {
             font-size: 2rem;
             text-transform: uppercase;
-            margin-left: 3rem;
+            align-self: flex-start;
         }
 
         &-title::after {
@@ -93,13 +100,6 @@
         }
 
         &-photo-client {
-
-            display: flex;
-            position: relative;
-            top: 1rem;
-            left: 3rem;
-        
-                
                 &-img-three {
                     width: 11rem;
                     margin-top: 1rem;
@@ -107,7 +107,6 @@
 
                 &-paragraph {
                     font-size: 24px;
-                    margin: 64px 0 0 15px;
 
                     &-a{
                         text-decoration: none;
@@ -115,14 +114,12 @@
                     }
                 }
         }
-        
+
 
         &-paragraph {
             font-size: 22px;
             position: relative;
-            left: 39rem;
-            top: -13rem;
-            width: 40rem;
+            max-width: 40rem;
             line-height: 32px;
 
         }

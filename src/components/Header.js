@@ -26,9 +26,7 @@ const Header = props => (
           <span className="header-text-red">develop </span><br />
           web and mobile <br />applications
         </h1>
-      </div>
 
-      <div className="hire-us-link-container">
         <a className="hire-us-link">
           Hire Us
         </a>

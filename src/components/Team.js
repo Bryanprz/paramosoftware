@@ -8,8 +8,7 @@ import {faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
 export default class Team extends Component {
     render() {
         return (
-            <section>
-
+            <>
                     <section className="Team">
                         <h2 className="title-team"><sup>Meet</sup> the <sub> team</sub></h2>
                             <div className="container">
@@ -81,8 +80,7 @@ export default class Team extends Component {
                                 </Tilt>
                             </div>
                     </section>
-
-            </section>
+            </>
         )
     }
 }
